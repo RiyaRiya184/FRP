@@ -16,7 +16,7 @@
 - Launch instance
   
 ## Launched EC2 Instance
-![EC2-Launched-Instance](https://github.com/gaoharimran29-glitch/frp-fast-reverse-proxy-/blob/c85f7222cd0191992aac61f2ee6552d513c32431/frpimages/ec2.png)
+
 
 ---
 
@@ -65,7 +65,7 @@ HI FROM FRP CLIENT FROM KALI
 #verify locally
 http://localhost
 ```
-![Apache-Website-Localhost](https://github.com/gaoharimran29-glitch/frp-fast-reverse-proxy-/blob/c85f7222cd0191992aac61f2ee6552d513c32431/frpimages/apacheweblocal.png)
+
 
 # 5. Setup FRP Client on Local PC
 ```bash
@@ -87,14 +87,11 @@ remote_port = 8081
 # Start FRP Client
 ./frpc -c frpc.ini
 ```
-**Note** - Please allow port 7000 and 8081 from security groups on your AWS Ubuntu Server as shown below.
+**Note** - Please allow port 7000 and 8081 from security groups on your AWS Ubuntu Server
 
-![AWS-Ports](https://github.com/gaoharimran29-glitch/frp-fast-reverse-proxy-/blob/c85f7222cd0191992aac61f2ee6552d513c32431/frpimages/securitygroups.png)
+# FRP Client connected 
 
-# FRP Client connected to server
-
-![FRP-Success](https://github.com/gaoharimran29-glitch/frp-fast-reverse-proxy-/blob/c85f7222cd0191992aac61f2ee6552d513c32431/frpimages/frpconnected.png)
-# 6. Test
+6. Test
 
 ```
 http://51.20.136.11:8081 #Edit with your public ip of AWS Ubuntu Server
@@ -103,4 +100,4 @@ http://51.20.136.11:8081 #Edit with your public ip of AWS Ubuntu Server
 
 # Website Accesible
 
-![Success](https://github.com/gaoharimran29-glitch/frp-fast-reverse-proxy-/blob/c85f7222cd0191992aac61f2ee6552d513c32431/frpimages/webaccessible.png)
+
